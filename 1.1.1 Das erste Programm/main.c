@@ -1,8 +1,7 @@
 # include <stdio.h>
 # include <stdlib.h>
 
-void main()
-{
+void main(){
 	int z;
 	int n;
 	int a;
@@ -25,5 +24,4 @@ void main()
 		printf("%d", x);
 	}
 	printf("\n");
-	//scanf_s("%d");
 }
