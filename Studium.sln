@@ -9,6 +9,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.2 Schaltjahre", "1.1.2 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.3 Maximum und Minimum von Zahlen", "1.1.3 Maximum und Minimum von Zahlen\1.1.3 Maximum und Minimum von Zahlen.vcxproj", "{E67B625B-69B5-4542-A075-A2CD21681055}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kapitel 1", "Kapitel 1", "{50722080-69EB-4849-9071-04F8B92CDF23}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kapitel 2", "Kapitel 2", "{D395774E-3777-4715-ADA3-22B4B86F361A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2.1 Sortieren von 3 Zahlen", "1.2.1 Sortieren von 3 Zahlen\1.2.1 Sortieren von 3 Zahlen.vcxproj", "{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,8 +50,19 @@ Global
 		{E67B625B-69B5-4542-A075-A2CD21681055}.Release|x64.Build.0 = Release|x64
 		{E67B625B-69B5-4542-A075-A2CD21681055}.Release|x86.ActiveCfg = Release|Win32
 		{E67B625B-69B5-4542-A075-A2CD21681055}.Release|x86.Build.0 = Release|Win32
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Debug|x64.ActiveCfg = Debug|x64
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Debug|x64.Build.0 = Debug|x64
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Debug|x86.ActiveCfg = Debug|Win32
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Debug|x86.Build.0 = Debug|Win32
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Release|x64.ActiveCfg = Release|x64
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Release|x64.Build.0 = Release|x64
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Release|x86.ActiveCfg = Release|Win32
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388} = {D395774E-3777-4715-ADA3-22B4B86F361A}
 	EndGlobalSection
 EndGlobal
