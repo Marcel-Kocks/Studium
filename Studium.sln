@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kapitel 2 Vertiefung und Se
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2.1 Sortieren von 3 Zahlen", "1.2.1 Sortieren von 3 Zahlen\1.2.1 Sortieren von 3 Zahlen.vcxproj", "{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2.2 Primzahlzerlegung", "1.2.2 Primzahlzerlegung\1.2.2 Primzahlzerlegung.vcxproj", "{583C80D5-ABA8-4D59-A916-4C704EDAB467}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2.3 Narzisstische Zahlen mit steigender Potenz", "1.2.3 Narzisstische Zahlen mit steigender Potenz\1.2.3 Narzisstische Zahlen mit steigender Potenz.vcxproj", "{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -55,6 +59,22 @@ Global
 		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Release|x64.Build.0 = Release|x64
 		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Release|x86.ActiveCfg = Release|Win32
 		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}.Release|x86.Build.0 = Release|Win32
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467}.Debug|x64.ActiveCfg = Debug|x64
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467}.Debug|x64.Build.0 = Debug|x64
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467}.Debug|x86.ActiveCfg = Debug|Win32
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467}.Debug|x86.Build.0 = Debug|Win32
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467}.Release|x64.ActiveCfg = Release|x64
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467}.Release|x64.Build.0 = Release|x64
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467}.Release|x86.ActiveCfg = Release|Win32
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467}.Release|x86.Build.0 = Release|Win32
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}.Debug|x64.ActiveCfg = Debug|x64
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}.Debug|x64.Build.0 = Debug|x64
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}.Debug|x86.Build.0 = Debug|Win32
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}.Release|x64.ActiveCfg = Release|x64
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}.Release|x64.Build.0 = Release|x64
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}.Release|x86.ActiveCfg = Release|Win32
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +84,7 @@ Global
 		{779AA6BF-CD86-451C-A76D-FBBFE1BC60D2} = {50722080-69EB-4849-9071-04F8B92CDF23}
 		{E67B625B-69B5-4542-A075-A2CD21681055} = {50722080-69EB-4849-9071-04F8B92CDF23}
 		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388} = {D395774E-3777-4715-ADA3-22B4B86F361A}
+		{583C80D5-ABA8-4D59-A916-4C704EDAB467} = {D395774E-3777-4715-ADA3-22B4B86F361A}
+		{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6} = {D395774E-3777-4715-ADA3-22B4B86F361A}
 	EndGlobalSection
 EndGlobal
