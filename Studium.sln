@@ -9,12 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.2 Schaltjahre", "1.1.2 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.3 Maximum und Minimum von Zahlen", "1.1.3 Maximum und Minimum von Zahlen\1.1.3 Maximum und Minimum von Zahlen.vcxproj", "{E67B625B-69B5-4542-A075-A2CD21681055}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kapitel 1", "Kapitel 1", "{50722080-69EB-4849-9071-04F8B92CDF23}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kapitel 1 Praktikumsaufgaben", "Kapitel 1 Praktikumsaufgaben", "{50722080-69EB-4849-9071-04F8B92CDF23}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kapitel 2", "Kapitel 2", "{D395774E-3777-4715-ADA3-22B4B86F361A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kapitel 2 Vertiefung und Selbsttest", "Kapitel 2 Vertiefung und Selbsttest", "{D395774E-3777-4715-ADA3-22B4B86F361A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2.1 Sortieren von 3 Zahlen", "1.2.1 Sortieren von 3 Zahlen\1.2.1 Sortieren von 3 Zahlen.vcxproj", "{55FC91B6-43EE-41B5-9E73-3B38EE8EB388}"
 EndProject
@@ -63,6 +60,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{4B30FDD1-CE8B-4A2B-A332-C05ED60F2111} = {50722080-69EB-4849-9071-04F8B92CDF23}
+		{779AA6BF-CD86-451C-A76D-FBBFE1BC60D2} = {50722080-69EB-4849-9071-04F8B92CDF23}
+		{E67B625B-69B5-4542-A075-A2CD21681055} = {50722080-69EB-4849-9071-04F8B92CDF23}
 		{55FC91B6-43EE-41B5-9E73-3B38EE8EB388} = {D395774E-3777-4715-ADA3-22B4B86F361A}
 	EndGlobalSection
 EndGlobal
