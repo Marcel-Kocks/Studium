@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+
+int hoch(int x, int n)
+{
+	int erg = x;
+	for (; n > 1; n--) {
+		erg *= x;
+	}
+	return erg;
+}
 
 void main() {
 
@@ -23,13 +31,4 @@ void main() {
 			}
 		}
 	}
-}
-
-int hoch(int x,int n)
-{
-	int erg = x;
-	for (; n > 1; n--) {
-		erg *= x;
-	}
-	return erg;
 }
