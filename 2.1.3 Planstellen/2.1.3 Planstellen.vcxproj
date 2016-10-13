@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B8F4901E-CE3B-4782-A5E8-57229114DDB8}</ProjectGuid>
+    <ProjectGuid>{82AC47DE-A16F-46B9-B7C2-CA433BECAFCA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My211GrößtergemeinsamerTeiler</RootNamespace>
+    <RootNamespace>My213Planstellen</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
