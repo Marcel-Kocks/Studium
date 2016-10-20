@@ -31,6 +31,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.2.2 Sitzverteilung", "2.2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.2.3 Epidemie", "2.2.3 Epidemie\2.2.3 Epidemie.vcxproj", "{ED82F1DB-F1CA-4CD9-A574-351FE4184A3B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 3 Aussagenlogik", "Aufgabenblatt 3 Aussagenlogik", "{4E15CCC6-A380-4032-83B6-151B59455C7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.1.1 Wahrheitstafeln", "3.1.1 Wahrheitstafeln\3.1.1 Wahrheitstafeln.vcxproj", "{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -135,6 +139,14 @@ Global
 		{ED82F1DB-F1CA-4CD9-A574-351FE4184A3B}.Release|x64.Build.0 = Release|x64
 		{ED82F1DB-F1CA-4CD9-A574-351FE4184A3B}.Release|x86.ActiveCfg = Release|Win32
 		{ED82F1DB-F1CA-4CD9-A574-351FE4184A3B}.Release|x86.Build.0 = Release|Win32
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Debug|x64.ActiveCfg = Debug|x64
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Debug|x64.Build.0 = Debug|x64
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Debug|x86.ActiveCfg = Debug|Win32
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Debug|x86.Build.0 = Debug|Win32
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Release|x64.ActiveCfg = Release|x64
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Release|x64.Build.0 = Release|x64
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Release|x86.ActiveCfg = Release|Win32
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,5 +164,6 @@ Global
 		{D4407250-E3C3-4CB5-A8BE-809BC3895120} = {96BE666B-4A52-435D-B202-759DC2BDF368}
 		{6F665E05-6F0F-4C6E-8046-A642CBD9A5EC} = {96BE666B-4A52-435D-B202-759DC2BDF368}
 		{ED82F1DB-F1CA-4CD9-A574-351FE4184A3B} = {96BE666B-4A52-435D-B202-759DC2BDF368}
+		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8} = {4E15CCC6-A380-4032-83B6-151B59455C7A}
 	EndGlobalSection
 EndGlobal

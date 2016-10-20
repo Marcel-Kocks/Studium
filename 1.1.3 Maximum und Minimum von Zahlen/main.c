@@ -2,7 +2,7 @@
 # include <stdlib.h>
 
 void main() {
-	int max = 0, min = 0, anzahl, eingabe;
+	signed int min = ~0u >> 1, max = min + 1,  anzahl, eingabe;
 
 	printf("Anzahl:");
 	scanf_s("%d", &anzahl);
@@ -10,17 +10,17 @@ void main() {
 
 	for (int i = 1; i <= anzahl; i++)
 	{
-		printf("%d. Zahl: ",i);
+		printf("%d. Zahl: ", i);
 		scanf_s("%d", &eingabe);
 
 		if (eingabe > max) {
 			max = eingabe;
 		}
-		else {
-			if (eingabe < min) {
-				min = eingabe;
-			}
+
+		if (eingabe < min) {
+			min = eingabe;
 		}
+
 	}
 
 	printf("\nGroesste Zahl: %d\n", max);
