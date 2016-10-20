@@ -7,7 +7,7 @@ void main() {
 	printf("Anzahl:");
 	scanf_s("%d", &anzahl);
 	printf("\n");
-
+	printf("Gebe Zahlen zwischen %d und %d an: \n\n",max,min);
 	for (int i = 1; i <= anzahl; i++)
 	{
 		printf("%d. Zahl: ", i);
