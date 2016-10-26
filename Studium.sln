@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.1 Das erste Programm", "1.1.1 Das erste Programm\1.1.1 Das erste Programm.vcxproj", "{4B30FDD1-CE8B-4A2B-A332-C05ED60F2111}"
 EndProject
@@ -34,6 +34,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 3 Aussagenlogik", "Aufgabenblatt 3 Aussagenlogik", "{4E15CCC6-A380-4032-83B6-151B59455C7A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.1.1 Wahrheitstafeln", "3.1.1 Wahrheitstafeln\3.1.1 Wahrheitstafeln.vcxproj", "{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.1.2 Entscheidungstabelle", "3.1.2 Entscheidungstabelle\3.1.2 Entscheidungstabelle.vcxproj", "{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,14 @@ Global
 		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Release|x64.Build.0 = Release|x64
 		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Release|x86.ActiveCfg = Release|Win32
 		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}.Release|x86.Build.0 = Release|Win32
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}.Debug|x64.ActiveCfg = Debug|x64
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}.Debug|x64.Build.0 = Debug|x64
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}.Debug|x86.ActiveCfg = Debug|Win32
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}.Debug|x86.Build.0 = Debug|Win32
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}.Release|x64.ActiveCfg = Release|x64
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}.Release|x64.Build.0 = Release|x64
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}.Release|x86.ActiveCfg = Release|Win32
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,5 +175,6 @@ Global
 		{6F665E05-6F0F-4C6E-8046-A642CBD9A5EC} = {96BE666B-4A52-435D-B202-759DC2BDF368}
 		{ED82F1DB-F1CA-4CD9-A574-351FE4184A3B} = {96BE666B-4A52-435D-B202-759DC2BDF368}
 		{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8} = {4E15CCC6-A380-4032-83B6-151B59455C7A}
+		{7BCD32F7-78F8-4397-A674-1EBBC8AE4133} = {4E15CCC6-A380-4032-83B6-151B59455C7A}
 	EndGlobalSection
 EndGlobal
