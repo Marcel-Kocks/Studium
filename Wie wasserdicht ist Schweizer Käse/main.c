@@ -4,14 +4,14 @@
 
 #define DIM  20
 char Block[DIM][DIM][DIM];
-float p = 71.0; //Prozentangabe an Käse
+float p = 55; //Prozentangabe an Käse
 
 void fillBlock() {
 	for (int a = 0; a < DIM; a++) {
 		for (int b = 0; b < DIM; b++) {
 			for (int c = 0; c < DIM; c++) {
-				int r = rand() % 101;
-				if (r < p) {
+				int r = rand() % 10001;
+				if (r < p * 100) {
 					Block[a][b][c] = '1';
 				}
 				else {
@@ -20,7 +20,6 @@ void fillBlock() {
 			}
 		}
 	}
-
 }
 
 
@@ -112,19 +111,22 @@ short search() {
 void main() {
 	srand(time(NULL));
 
-	int leaks = 0;
-	int tests = 10000;
-	for (int i = 0; i < tests; i++) {
-		fillBlock();
-		if (search()) {
-			//printf("undicht!!\n");
-			leaks++;
+	for (; p < 75.0; p = p + 0.1) {
+		int leaks = 0;
+		int tests = 10000;
+		for (int i = 0; i < tests; i++) {
+			fillBlock();
+			if (search()) {
+				//printf("undicht!!\n");
+				leaks++;
+			}
+			else {
+				//printf("dicht!!\n");
+			}
 		}
-		else {
-			//printf("dicht!!\n");
-		}
+		//output();
+		//printf("Käsedichte: %3.2f Prozent ", p);
+		//printf("Dicht: %4f (%3.2f Prozent)  Undicht: %4d (%3.2f Prozent)\n", tests - leaks, ((float)tests - leaks) / tests * 100, leaks, ((float)leaks) / tests * 100);
+		printf("%f;%d;%d\n", p, tests - leaks, leaks);
 	}
-	output();
-	printf("Käsedichte: %3.2f Prozent\n", p);
-	printf("Dicht: %4d (%3.2f Prozent)  Undicht: %4d (%3.2f Prozent)\n", tests - leaks, ((float)tests - leaks) / tests * 100, leaks, ((float)leaks) / tests * 100);
 }
