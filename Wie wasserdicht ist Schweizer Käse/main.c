@@ -109,8 +109,10 @@ short search() {
 }
 
 void main() {
-	srand(time(NULL));
 
+	
+	srand(time(NULL));
+	/*
 	for (; p < 75.0; p = p + 0.1) {
 		int leaks = 0;
 		int tests = 10000;
@@ -129,4 +131,11 @@ void main() {
 		//printf("Dicht: %4f (%3.2f Prozent)  Undicht: %4d (%3.2f Prozent)\n", tests - leaks, ((float)tests - leaks) / tests * 100, leaks, ((float)leaks) / tests * 100);
 		printf("%f;%d;%d\n", p, tests - leaks, leaks);
 	}
+
+	*/
+	fillBlock();
+	if (search()) {
+		printf("UNDICH!");
+	}
+	output();
 }
