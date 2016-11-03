@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{950FE9ED-C703-400A-9563-E1D5863FC179}</ProjectGuid>
+    <ProjectGuid>{19E9EE18-F9F3-424B-8F61-A842F824C401}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My322Banktresor</RootNamespace>
+    <RootNamespace>My523DoublettenauseinemStringentfernen</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
