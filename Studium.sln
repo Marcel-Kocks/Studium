@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.2.2 Banktresor", "3.2.2 B
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2.1 Palindromerkennung", "5.2.1 Palindromerkennung\5.2.1 Palindromerkennung.vcxproj", "{123EB6C7-B748-46A5-9C85-15EFC24BE7FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2.2 Alphabetischer Stringvergleich", "5.2.2 Alphabetischer Stringvergleich\5.2.2 Alphabetischer Stringvergleich.vcxproj", "{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -263,6 +265,14 @@ Global
 		{123EB6C7-B748-46A5-9C85-15EFC24BE7FF}.Release|x64.Build.0 = Release|x64
 		{123EB6C7-B748-46A5-9C85-15EFC24BE7FF}.Release|x86.ActiveCfg = Release|Win32
 		{123EB6C7-B748-46A5-9C85-15EFC24BE7FF}.Release|x86.Build.0 = Release|Win32
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}.Debug|x64.ActiveCfg = Debug|x64
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}.Debug|x64.Build.0 = Debug|x64
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}.Debug|x86.Build.0 = Debug|Win32
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}.Release|x64.ActiveCfg = Release|x64
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}.Release|x64.Build.0 = Release|x64
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}.Release|x86.ActiveCfg = Release|Win32
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -292,5 +302,6 @@ Global
 		{19E9EE18-F9F3-424B-8F61-A842F824C401} = {664E67E1-6CF9-4BDE-B04B-940DC0123B22}
 		{950FE9ED-C703-400A-9563-E1D5863FC179} = {4E15CCC6-A380-4032-83B6-151B59455C7A}
 		{123EB6C7-B748-46A5-9C85-15EFC24BE7FF} = {664E67E1-6CF9-4BDE-B04B-940DC0123B22}
+		{91F63A57-D8C0-4D6E-B45B-D8C8EC8F59B8} = {664E67E1-6CF9-4BDE-B04B-940DC0123B22}
 	EndGlobalSection
 EndGlobal
