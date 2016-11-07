@@ -14,6 +14,8 @@ int StrCompare(char* str1, char* str2) {
 	if (*str1 < *str2) {
 		return -1;
 	}
+
+	return 42;
 }
 
 void main() {
