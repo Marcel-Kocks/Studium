@@ -77,6 +77,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.1.2 Exponentialfunktion",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.1.3 Binomialkoeffizient", "6.1.3 Binomialkoeffizient\6.1.3 Binomialkoeffizient.vcxproj", "{A798E296-1236-4423-A077-65FC36419B5F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 7 Rekursion", "Aufgabenblatt 7 Rekursion", "{94553131-ED7B-4FE9-B6F8-57D286F7DE4B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.1.1 Rekursive Stringfunktionen", "7.1.1 Rekursive Stringfunktionen\7.1.1 Rekursive Stringfunktionen.vcxproj", "{BB68A4F4-0682-4F73-A3DA-087CECE093B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.1.2 Binomialkoeffizient rekursiv", "7.1.2 Binomialkoeffizient rekursiv\7.1.2 Binomialkoeffizient rekursiv.vcxproj", "{3AF4A3F2-593F-433F-BB6E-FABF876243AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.1.3 Rekursiv sortieren", "7.1.3 Rekursiv sortieren\7.1.3 Rekursiv sortieren.vcxproj", "{60DF389F-5A09-4641-8E54-80AA9A07F21B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -325,6 +333,30 @@ Global
 		{A798E296-1236-4423-A077-65FC36419B5F}.Release|x64.Build.0 = Release|x64
 		{A798E296-1236-4423-A077-65FC36419B5F}.Release|x86.ActiveCfg = Release|Win32
 		{A798E296-1236-4423-A077-65FC36419B5F}.Release|x86.Build.0 = Release|Win32
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2}.Debug|x64.ActiveCfg = Debug|x64
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2}.Debug|x64.Build.0 = Debug|x64
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2}.Debug|x86.Build.0 = Debug|Win32
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2}.Release|x64.ActiveCfg = Release|x64
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2}.Release|x64.Build.0 = Release|x64
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2}.Release|x86.ActiveCfg = Release|Win32
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2}.Release|x86.Build.0 = Release|Win32
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD}.Debug|x64.ActiveCfg = Debug|x64
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD}.Debug|x64.Build.0 = Debug|x64
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD}.Debug|x86.Build.0 = Debug|Win32
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD}.Release|x64.ActiveCfg = Release|x64
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD}.Release|x64.Build.0 = Release|x64
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD}.Release|x86.ActiveCfg = Release|Win32
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD}.Release|x86.Build.0 = Release|Win32
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B}.Debug|x64.ActiveCfg = Debug|x64
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B}.Debug|x64.Build.0 = Debug|x64
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B}.Debug|x86.ActiveCfg = Debug|Win32
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B}.Debug|x86.Build.0 = Debug|Win32
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B}.Release|x64.ActiveCfg = Release|x64
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B}.Release|x64.Build.0 = Release|x64
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B}.Release|x86.ActiveCfg = Release|Win32
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,5 +392,8 @@ Global
 		{5BCC88B0-A107-454E-B179-6ACC08403978} = {D3FE282F-688D-42CE-B211-364C8895E016}
 		{57C0192A-AA19-453A-81F8-C0B0E1B3EE4B} = {D3FE282F-688D-42CE-B211-364C8895E016}
 		{A798E296-1236-4423-A077-65FC36419B5F} = {D3FE282F-688D-42CE-B211-364C8895E016}
+		{BB68A4F4-0682-4F73-A3DA-087CECE093B2} = {94553131-ED7B-4FE9-B6F8-57D286F7DE4B}
+		{3AF4A3F2-593F-433F-BB6E-FABF876243AD} = {94553131-ED7B-4FE9-B6F8-57D286F7DE4B}
+		{60DF389F-5A09-4641-8E54-80AA9A07F21B} = {94553131-ED7B-4FE9-B6F8-57D286F7DE4B}
 	EndGlobalSection
 EndGlobal
