@@ -48,6 +48,10 @@ void main() {
 	pf = fopen("random.txt", "r+");
 	//int nums[Array_lengh];
 	int* nums = malloc(sizeof(int)*Array_lengh);
+	if (!nums) {
+		//ERROR
+		exit(99);
+	}
 	for (int i = 0; !feof(pf); i++) {
 		fscanf(pf, "%d", &nums[i]);
 	}

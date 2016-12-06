@@ -5,13 +5,16 @@ void doIT(int* start, int* end) {
 	if (start >= end)
 		return;
 	if (*start < 0)
-		return doIT(++start, end);
-	if (*end > 0)
-		return doIT(start, --end);
+		doIT(++start, end);
+		return;
+		if (*end > 0)
+			doIT(start, --end);
+			return;
 	int c = *start;
 	*start = *end;
 	*end = c;
-	return doIT(++start, --end);
+	doIT(++start, --end);
+	return;
 }
 
 void main() {
