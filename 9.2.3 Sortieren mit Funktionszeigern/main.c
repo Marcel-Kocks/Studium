@@ -40,7 +40,7 @@ void ausgabe(int anz, int *a, char *txt)
 	for (; anz; anz--, a++)
 		printf("%3d", *a);
 }
-
+//lkdasfhklhasdf
 void main()
 {
 	int a[20] = { 17,14,3,20,5,11,7,13,19,10,6,16,8,2,15,12,1,18,9,4 };
