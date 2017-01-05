@@ -4,7 +4,7 @@
 #include<string.h>
 #include<ctype.h>
 
-#define TopListCount 100
+#define TopListCount 25
 
 struct list_entry {
 	struct list_entry* next;
@@ -95,7 +95,6 @@ void remove_special_chars(char *c) {
 
 void top10(struct tree_node *pNode, struct tree_node *erg) {
 	if (pNode) {
-
 		top10(pNode->left, erg);
 		if (pNode->count > erg[0].count) {
 			int i, a;

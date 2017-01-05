@@ -137,6 +137,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.1.1 Textanalyse (Liste)"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.1.2 Textanalyse (Baum)", "12.1.2 Textanalyse (Baum)\12.1.2 Textanalyse (Baum).vcxproj", "{0DC9826F-CA66-4426-AFD6-74EC17977243}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KlausurAufgabe2", "KlausurAufgabe2\KlausurAufgabe2.vcxproj", "{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -577,6 +579,14 @@ Global
 		{0DC9826F-CA66-4426-AFD6-74EC17977243}.Release|x64.Build.0 = Release|x64
 		{0DC9826F-CA66-4426-AFD6-74EC17977243}.Release|x86.ActiveCfg = Release|Win32
 		{0DC9826F-CA66-4426-AFD6-74EC17977243}.Release|x86.Build.0 = Release|Win32
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}.Debug|x64.ActiveCfg = Debug|x64
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}.Debug|x64.Build.0 = Debug|x64
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}.Debug|x86.ActiveCfg = Debug|Win32
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}.Debug|x86.Build.0 = Debug|Win32
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}.Release|x64.ActiveCfg = Release|x64
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}.Release|x64.Build.0 = Release|x64
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}.Release|x86.ActiveCfg = Release|Win32
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -637,5 +647,6 @@ Global
 		{236F90F5-66AF-4E1F-851A-C2873ABBCF5C} = {C0677A99-824D-4F5E-9A10-B14E40E7C176}
 		{0298B26A-0B28-4B9B-A813-A1E21FA852DA} = {18B887F7-11FE-4749-97B7-C97ED7545368}
 		{0DC9826F-CA66-4426-AFD6-74EC17977243} = {18B887F7-11FE-4749-97B7-C97ED7545368}
+		{C01582DA-8BF9-4173-9F6C-E273B8A7A43A} = {B8D94EE8-3A3E-403C-8113-8EAD0DF0C600}
 	EndGlobalSection
 EndGlobal
