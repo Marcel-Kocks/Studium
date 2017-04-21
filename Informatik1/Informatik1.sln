@@ -16,8 +16,14 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2.3 Narzisstische Zahlen mit steigender Potenz", "1.2.3 Narzisstische Zahlen mit steigender Potenz\1.2.3 Narzisstische Zahlen mit steigender Potenz.vcxproj", "{3B55BB61-322F-4F4F-BDF7-DF0E60954CE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 1 Programmrahmen, Fallunterscheidungen und Schleifen", "Aufgabenblatt 1 Programmrahmen, Fallunterscheidungen und Schleifen", "{0AD7033D-C490-4DEC-9E8C-EFFBFC201FC0}"
+	ProjectSection(SolutionItems) = preProject
+		1. Programmrahmen, Fallunterscheidungen und Schleifen.pdf = 1. Programmrahmen, Fallunterscheidungen und Schleifen.pdf
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 2 Iterative Berechnungen", "Aufgabenblatt 2 Iterative Berechnungen", "{96BE666B-4A52-435D-B202-759DC2BDF368}"
+	ProjectSection(SolutionItems) = preProject
+		2. Iterative Berechnungen.pdf = 2. Iterative Berechnungen.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1.1 Größter gemeinsamer Teiler", "2.1.1 Größter gemeinsamer Teiler\2.1.1 Größter gemeinsamer Teiler.vcxproj", "{B8F4901E-CE3B-4782-A5E8-57229114DDB8}"
 EndProject
@@ -32,6 +38,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.2.3 Epidemie", "2.2.3 Epidemie\2.2.3 Epidemie.vcxproj", "{ED82F1DB-F1CA-4CD9-A574-351FE4184A3B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 3 Aussagenlogik", "Aufgabenblatt 3 Aussagenlogik", "{4E15CCC6-A380-4032-83B6-151B59455C7A}"
+	ProjectSection(SolutionItems) = preProject
+		3. Aussagenlogik.pdf = 3. Aussagenlogik.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.1.1 Wahrheitstafeln", "3.1.1 Wahrheitstafeln\3.1.1 Wahrheitstafeln.vcxproj", "{F34235FE-4C6D-4ED6-A62D-15B8A75BACE8}"
 EndProject
@@ -40,6 +49,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.1.3 Geburtstagsfeier", "3.1.3 Geburtstagsfeier\3.1.3 Geburtstagsfeier.vcxproj", "{4F539872-E1A6-4E8F-BE13-93B4C5D69049}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 4 Arrays", "Aufgabenblatt 4 Arrays", "{DA9ADF8F-BF03-48AA-9994-8A0CE96B0859}"
+	ProjectSection(SolutionItems) = preProject
+		4. Arrays.pdf = 4. Arrays.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.1.1 Zahlenarray", "4.1.1 Zahlenarray\4.1.1 Zahlenarray.vcxproj", "{5C939C86-52B9-443F-B9DA-2CDADD9AD2F5}"
 EndProject
@@ -52,6 +64,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wie wasserdicht ist Schweizer Käse", "Wie wasserdicht ist Schweizer Käse\Wie wasserdicht ist Schweizer Käse.vcxproj", "{36846210-28C5-4613-92A2-EA9309B3D437}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 5 Zeichenketten", "Aufgabenblatt 5 Zeichenketten", "{664E67E1-6CF9-4BDE-B04B-940DC0123B22}"
+	ProjectSection(SolutionItems) = preProject
+		5. Zeichenketten.pdf = 5. Zeichenketten.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1.1 Buchstaben zählen", "5.1.1 Buchstaben zählen\5.1.1 Buchstaben zählen.vcxproj", "{99EA7F4B-CC35-406B-B1C1-2227993AF97B}"
 EndProject
@@ -70,6 +85,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1.3 Zeichen entfernen", "5.1.3 Zeichen entfernen\5.1.3 Zeichen entfernen.vcxproj", "{4132DD1A-0B7F-4F02-85F6-CB0A8C1D8A04}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 6 Funktionen", "Aufgabenblatt 6 Funktionen", "{D3FE282F-688D-42CE-B211-364C8895E016}"
+	ProjectSection(SolutionItems) = preProject
+		6. Funktionen.pdf = 6. Funktionen.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.1.1 Potenzfunktion", "6.1.1 Potenzfunktion\6.1.1 Potenzfunktion.vcxproj", "{5BCC88B0-A107-454E-B179-6ACC08403978}"
 EndProject
@@ -78,6 +96,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.1.3 Binomialkoeffizient", "6.1.3 Binomialkoeffizient\6.1.3 Binomialkoeffizient.vcxproj", "{A798E296-1236-4423-A077-65FC36419B5F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 7 Rekursion", "Aufgabenblatt 7 Rekursion", "{94553131-ED7B-4FE9-B6F8-57D286F7DE4B}"
+	ProjectSection(SolutionItems) = preProject
+		7. Rekursion.pdf = 7. Rekursion.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.1.1 Rekursive Stringfunktionen", "7.1.1 Rekursive Stringfunktionen\7.1.1 Rekursive Stringfunktionen.vcxproj", "{BB68A4F4-0682-4F73-A3DA-087CECE093B2}"
 EndProject
@@ -100,12 +121,18 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.1.4 Stringfunktionen", "6.1.4 Stringfunktionen\6.1.4 Stringfunktionen.vcxproj", "{EB2C6F91-DC1D-4D67-80BF-FEDCE9F37A55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 8 Dateioperationen", "Aufgabenblatt 8 Dateioperationen", "{C1745BBF-2A9D-4ED8-8F20-1503F12E3848}"
+	ProjectSection(SolutionItems) = preProject
+		8. Dateioperationen.pdf = 8. Dateioperationen.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.1.1 Textdatei mit Zahlen", "8.1.1 Textdatei mit Zahlen\8.1.1 Textdatei mit Zahlen.vcxproj", "{65A49D4F-1E3C-41AF-B1FE-14D55F0F5666}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.1.2 Datei verschlüsseln", "8.1.2 Datei verschlüsseln\8.1.2 Datei verschlüsseln.vcxproj", "{AA5763FF-34DA-4AF9-A002-D4688333869E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 9 Zeiger und Adressen", "Aufgabenblatt 9 Zeiger und Adressen", "{34615FB8-574D-43A9-9158-D56F5FFC2AAD}"
+	ProjectSection(SolutionItems) = preProject
+		9. Zeiger und Adressen.pdf = 9. Zeiger und Adressen.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.1.1 Mittelwert und Varianz", "9.1.1 Mittelwert und Varianz\9.1.1 Mittelwert und Varianz.vcxproj", "{C9251894-6CA2-4E20-8A37-FBF5CCC10263}"
 EndProject
@@ -128,10 +155,16 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scribble", "Scribble\Scribble.vcxproj", "{76CC5091-B925-47A5-B538-69A3B07D9654}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 11 Datenstrukturen", "Aufgabenblatt 11 Datenstrukturen", "{C0677A99-824D-4F5E-9A10-B14E40E7C176}"
+	ProjectSection(SolutionItems) = preProject
+		11. Datenstrukturen.pdf = 11. Datenstrukturen.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.1.1 Wetter", "11.1.1 Wetter\11.1.1 Wetter.vcxproj", "{236F90F5-66AF-4E1F-851A-C2873ABBCF5C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 12 Dynamische Datenstrukturen", "Aufgabenblatt 12 Dynamische Datenstrukturen", "{18B887F7-11FE-4749-97B7-C97ED7545368}"
+	ProjectSection(SolutionItems) = preProject
+		12. Dynamische Datenstrukturen.pdf = 12. Dynamische Datenstrukturen.pdf
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.1.1 Textanalyse (Liste)", "12.1.1 Textanalyse (Liste)\12.1.1 Textanalyse (Liste).vcxproj", "{0298B26A-0B28-4B9B-A813-A1E21FA852DA}"
 EndProject
