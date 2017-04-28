@@ -20,7 +20,7 @@ int main()
 {
 	char text[100] = "Hallo";
 	strmult(4, text);
-
+	 
 	printf("%s\n",text);
 	system("PAUSE");
     return 0;
