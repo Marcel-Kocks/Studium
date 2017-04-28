@@ -18,6 +18,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.5 Datum-String zerlegen
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.1.6 String vervielfachen", "1.1.6 String vervielfachen\1.1.6 String vervielfachen.vcxproj", "{03CCA002-5B3F-4FC2-9FEA-BCE0FBC2869F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 2 Funktionen und Datenstrukturen", "Aufgabenblatt 2 Funktionen und Datenstrukturen", "{F3FCFDB7-1D9C-49B7-A170-648349520D5F}"
+	ProjectSection(SolutionItems) = preProject
+		2. Funktionen und Datenstrukturen.pdf = 2. Funktionen und Datenstrukturen.pdf
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1.1 Datenstruktur komplex", "2.1.1 Datenstruktur komplex\2.1.1 Datenstruktur komplex.vcxproj", "{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1.3 Datenstruktur mystring", "2.1.3 Datenstruktur mystring\2.1.3 Datenstruktur mystring.vcxproj", "{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -66,6 +75,22 @@ Global
 		{03CCA002-5B3F-4FC2-9FEA-BCE0FBC2869F}.Release|x64.Build.0 = Release|x64
 		{03CCA002-5B3F-4FC2-9FEA-BCE0FBC2869F}.Release|x86.ActiveCfg = Release|Win32
 		{03CCA002-5B3F-4FC2-9FEA-BCE0FBC2869F}.Release|x86.Build.0 = Release|Win32
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}.Debug|x64.ActiveCfg = Debug|x64
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}.Debug|x64.Build.0 = Debug|x64
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}.Debug|x86.Build.0 = Debug|Win32
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}.Release|x64.ActiveCfg = Release|x64
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}.Release|x64.Build.0 = Release|x64
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}.Release|x86.ActiveCfg = Release|Win32
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0}.Release|x86.Build.0 = Release|Win32
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}.Debug|x64.ActiveCfg = Debug|x64
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}.Debug|x64.Build.0 = Debug|x64
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}.Debug|x86.Build.0 = Debug|Win32
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}.Release|x64.ActiveCfg = Release|x64
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}.Release|x64.Build.0 = Release|x64
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}.Release|x86.ActiveCfg = Release|Win32
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +101,7 @@ Global
 		{1711AC74-7B3C-42B6-A655-542EDA2336E6} = {FCCA1480-F89F-493B-B227-BC2BCA1948E1}
 		{6ED91DF2-904C-4FA6-8F69-B310A2359DB2} = {FCCA1480-F89F-493B-B227-BC2BCA1948E1}
 		{03CCA002-5B3F-4FC2-9FEA-BCE0FBC2869F} = {FCCA1480-F89F-493B-B227-BC2BCA1948E1}
+		{270F1D8B-E0B6-4AC9-B866-58E35956A3E0} = {F3FCFDB7-1D9C-49B7-A170-648349520D5F}
+		{0D24F4E1-4688-4561-BC95-7CADBC85C6E0} = {F3FCFDB7-1D9C-49B7-A170-648349520D5F}
 	EndGlobalSection
 EndGlobal
