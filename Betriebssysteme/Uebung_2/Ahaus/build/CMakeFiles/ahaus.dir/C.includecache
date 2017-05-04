@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Marcel/Uebung_2/Ahaus/main.c
+stdio.h
+-
+
+/home/student/Marcel/Uebung_2/Ahaus/primz_math.c
+math.h
+-
+

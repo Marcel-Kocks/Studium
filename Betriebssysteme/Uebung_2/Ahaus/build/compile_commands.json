@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/student/Marcel/Uebung_2/Ahaus/build",
+  "command": "/usr/bin/cc    -g   -o CMakeFiles/ahaus.dir/main.c.o   -c /home/student/Marcel/Uebung_2/Ahaus/main.c",
+  "file": "/home/student/Marcel/Uebung_2/Ahaus/main.c"
+},
+{
+  "directory": "/home/student/Marcel/Uebung_2/Ahaus/build",
+  "command": "/usr/bin/cc    -g   -o CMakeFiles/ahaus.dir/primz_math.c.o   -c /home/student/Marcel/Uebung_2/Ahaus/primz_math.c",
+  "file": "/home/student/Marcel/Uebung_2/Ahaus/primz_math.c"
+}
+]
