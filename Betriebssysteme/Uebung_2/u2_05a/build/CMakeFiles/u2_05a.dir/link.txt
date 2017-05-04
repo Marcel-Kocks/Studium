@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/u2_05a.dir/main.o  -o u2_05a -rdynamic 
