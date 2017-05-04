@@ -1,0 +1,59 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c825f/fast"
+gmake[1]: Entering directory '/home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_c825f.dir/build.make CMakeFiles/cmTC_c825f.dir/build
+gmake[2]: Entering directory '/home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c825f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c825f.dir/CheckSymbolExists.c.o   -c /home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c825f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c825f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c825f.dir/CheckSymbolExists.c.o  -o cmTC_c825f -rdynamic 
+CMakeFiles/cmTC_c825f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c825f.dir/build.make:97: recipe for target 'cmTC_c825f' failed
+gmake[2]: *** [cmTC_c825f] Error 1
+gmake[2]: Leaving directory '/home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c825f/fast' failed
+gmake[1]: *** [cmTC_c825f/fast] Error 2
+gmake[1]: Leaving directory '/home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp'
+
+File /home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7bcb8/fast"
+gmake[1]: Entering directory '/home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_7bcb8.dir/build.make CMakeFiles/cmTC_7bcb8.dir/build
+gmake[2]: Entering directory '/home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bcb8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7bcb8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7bcb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bcb8.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7bcb8.dir/CheckFunctionExists.c.o  -o cmTC_7bcb8 -rdynamic -lpthreads 
+/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7bcb8.dir/build.make:97: recipe for target 'cmTC_7bcb8' failed
+gmake[2]: *** [cmTC_7bcb8] Error 1
+gmake[2]: Leaving directory '/home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7bcb8/fast' failed
+gmake[1]: *** [cmTC_7bcb8/fast] Error 2
+gmake[1]: Leaving directory '/home/student/Marcel/Uebung_2/u2_09/build/CMakeFiles/CMakeTmp'
+
+
