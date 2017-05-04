@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/u2_16.dir/main.o  -o u2_16 -rdynamic -lpthread 
