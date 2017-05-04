@@ -1,0 +1,18 @@
+#!/bin/bash
+
+wrz=$(echo "sqrt($1)"|bc)
+prime=1
+
+for((i=2;i<=$wrz && $prime;i++));
+do
+	if ! (($1 % $i));
+	then
+		echo Not Prime
+		prime=0
+	fi
+done
+
+if (($prime));
+then
+	echo Prime
+fi

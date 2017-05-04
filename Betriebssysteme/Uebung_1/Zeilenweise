@@ -1,0 +1,8 @@
+i=0
+while read variable
+do
+let i=i+1
+echo $i "te Zeile"
+echo $variable
+done < $1
+

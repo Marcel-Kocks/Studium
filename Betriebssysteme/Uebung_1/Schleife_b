@@ -1,0 +1,2 @@
+#!/bin/bash
+while true; do i=0; done

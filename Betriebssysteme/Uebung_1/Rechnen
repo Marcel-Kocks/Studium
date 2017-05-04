@@ -1,0 +1,26 @@
+echo "Erstes Argument: $1"
+echo "Zweites Argument: $2"
+echo "Drittes Argument: $3"
+echo "Es gibt $# Argumente"
+if [ "$2" == "plus" ]
+then
+fun="Die Summe"
+n=$(($1 + $3))
+fi
+if [ "$2" == "mal" ]
+then
+fun="Das Produkt"
+n=$(($1 * $3))
+fi
+if [ "$2" == "minus" ]
+then
+fun="Die Differenz"
+n=$(($1 - $3))
+fi
+if [ "$2" == "durch" ]
+then
+fun="Der Quotient"
+n=$(($1 / $3))
+fi
+echo "$fun beträgt $n"
+
