@@ -1,26 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp
+Change Dir: /home/student/Marcel/Uebung_2/u2_11/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_34fb3/fast"
-gmake[1]: Entering directory '/home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_34fb3.dir/build.make CMakeFiles/cmTC_34fb3.dir/build
-gmake[2]: Entering directory '/home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_34fb3.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_34fb3.dir/CheckSymbolExists.c.o   -c /home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_34fb3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34fb3.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_34fb3.dir/CheckSymbolExists.c.o  -o cmTC_34fb3 -rdynamic 
-CMakeFiles/cmTC_34fb3.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/gmake" "cmTC_5b471/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5b471.dir/build.make CMakeFiles/cmTC_5b471.dir/build
+gmake[1]: Entering directory '/home/student/Marcel/Uebung_2/u2_11/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b471.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5b471.dir/CheckSymbolExists.c.o   -c /home/student/Marcel/Uebung_2/u2_11/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5b471
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b471.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5b471.dir/CheckSymbolExists.c.o  -o cmTC_5b471 -rdynamic 
+CMakeFiles/cmTC_5b471.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_34fb3.dir/build.make:97: recipe for target 'cmTC_34fb3' failed
-gmake[2]: *** [cmTC_34fb3] Error 1
-gmake[2]: Leaving directory '/home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_34fb3/fast' failed
-gmake[1]: *** [cmTC_34fb3/fast] Error 2
-gmake[1]: Leaving directory '/home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_5b471.dir/build.make:97: recipe for target 'cmTC_5b471' failed
+gmake[1]: *** [cmTC_5b471] Error 1
+gmake[1]: Leaving directory '/home/student/Marcel/Uebung_2/u2_11/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5b471/fast' failed
+gmake: *** [cmTC_5b471/fast] Error 2
 
-File /home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/student/Marcel/Uebung_2/u2_11/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -36,24 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp
+Change Dir: /home/student/Marcel/Uebung_2/u2_11/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_73e06/fast"
-gmake[1]: Entering directory '/home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_73e06.dir/build.make CMakeFiles/cmTC_73e06.dir/build
-gmake[2]: Entering directory '/home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_73e06.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_73e06.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_73e06
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e06.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_73e06.dir/CheckFunctionExists.c.o  -o cmTC_73e06 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/gmake" "cmTC_2cd1a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2cd1a.dir/build.make CMakeFiles/cmTC_2cd1a.dir/build
+gmake[1]: Entering directory '/home/student/Marcel/Uebung_2/u2_11/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cd1a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2cd1a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2cd1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cd1a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2cd1a.dir/CheckFunctionExists.c.o  -o cmTC_2cd1a -rdynamic -lpthreads 
 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_73e06.dir/build.make:97: recipe for target 'cmTC_73e06' failed
-gmake[2]: *** [cmTC_73e06] Error 1
-gmake[2]: Leaving directory '/home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_73e06/fast' failed
-gmake[1]: *** [cmTC_73e06/fast] Error 2
-gmake[1]: Leaving directory '/home/student/Marcel/u2_11/build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_2cd1a.dir/build.make:97: recipe for target 'cmTC_2cd1a' failed
+gmake[1]: *** [cmTC_2cd1a] Error 1
+gmake[1]: Leaving directory '/home/student/Marcel/Uebung_2/u2_11/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2cd1a/fast' failed
+gmake: *** [cmTC_2cd1a/fast] Error 2
 
 

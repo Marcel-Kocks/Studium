@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/student/Marcel/u2_11/main.c
+/home/student/Marcel/Uebung_2/u2_11/main.c
 pthread.h
 -
 stdio.h

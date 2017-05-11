@@ -16,7 +16,7 @@ void* calc(void * eq){
         case '*' : eqq->erg=eqq->op1 * eqq->op2;break;
         case '/' : eqq->erg=eqq->op1 / eqq->op2;break;
     }
-    
+    return &(eqq->erg);    
 }
 
 int main(int argc, char **argv) {
@@ -35,18 +35,13 @@ int main(int argc, char **argv) {
     }
     
     for(i=0;i<4;i++){
-        float** erg;
-        pthread_join(threads[i],(void**)erg);
-        printf("OUT: %f\n",**erg);
+        float* erg;
+        pthread_join(threads[i],(void**)&erg);
+        printf("OUT: %f\n",*erg);
     }
+      
     
-    /*
-    for(i=0;i<4;i++){
-        printf("OUT: %f\n",arr_eq[i].erg);
-    }*/
-    
-    
-    printf("Hello Lucas\n");
+    printf("Fertig!\n");
     //sleep(5);
     return 0;
 }
