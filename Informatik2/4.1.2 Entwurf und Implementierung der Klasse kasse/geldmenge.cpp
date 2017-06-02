@@ -19,6 +19,14 @@ geldmenge geldmenge::operator+=(geldmenge & rhs)
 	return *this;
 }
 
+void geldmenge::set(int key, int value)
+{
+	for (auto x : m) {
+		if (x.first == key)
+			x.second = value;
+	}
+}
+
 geldmenge::geldmenge()
 {
 	m[1] = 0;

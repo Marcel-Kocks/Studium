@@ -13,6 +13,8 @@ public:
 
 	geldmenge operator+=(geldmenge& rhs);
 
+	void set(int key, int value);
+
 	geldmenge();
 };
 
