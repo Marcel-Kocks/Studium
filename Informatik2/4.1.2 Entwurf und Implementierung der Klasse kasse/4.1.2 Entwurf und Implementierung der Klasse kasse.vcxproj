@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClCompile Include="geldmenge.cpp" />
     <ClCompile Include="Kasse.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="geldmenge.h" />

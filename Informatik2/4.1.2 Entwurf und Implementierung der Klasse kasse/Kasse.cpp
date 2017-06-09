@@ -16,6 +16,7 @@ geldmenge Kasse::kundeZahlt(int zuBezahlen, geldmenge abgegeben)
 	int change = insum - zuBezahlen;
 
 	geldmenge wechsel;
+	
 
 	throw "No possible change configuration!";
 }
