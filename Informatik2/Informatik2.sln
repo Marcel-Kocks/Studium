@@ -43,6 +43,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Würfelspiel", "Würfelspie
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.1.2 Entwurf und Implementierung der Klasse kasse", "4.1.2 Entwurf und Implementierung der Klasse kasse\4.1.2 Entwurf und Implementierung der Klasse kasse.vcxproj", "{0B7C2FA7-7007-4BAA-91C9-1969CBDF73B8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C9B41564-B909-4F03-A2C0-308DD0D428A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AAABBB", "AAABBB\AAABBB.vcxproj", "{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 7 Klassen, Templates und Exceptions", "Aufgabenblatt 7 Klassen, Templates und Exceptions", "{81EEE2D0-5105-41E9-BBA1-210D603088AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.1.1 Vervollständigung einer Klasse", "7.1.1 Vervollständigung einer Klasse\7.1.1 Vervollständigung einer Klasse.vcxproj", "{75862455-9EA9-4275-90CD-4BBACF430564}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -147,6 +155,22 @@ Global
 		{0B7C2FA7-7007-4BAA-91C9-1969CBDF73B8}.Release|x64.Build.0 = Release|x64
 		{0B7C2FA7-7007-4BAA-91C9-1969CBDF73B8}.Release|x86.ActiveCfg = Release|Win32
 		{0B7C2FA7-7007-4BAA-91C9-1969CBDF73B8}.Release|x86.Build.0 = Release|Win32
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}.Debug|x64.ActiveCfg = Debug|x64
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}.Debug|x64.Build.0 = Debug|x64
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}.Debug|x86.Build.0 = Debug|Win32
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}.Release|x64.ActiveCfg = Release|x64
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}.Release|x64.Build.0 = Release|x64
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}.Release|x86.ActiveCfg = Release|Win32
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0}.Release|x86.Build.0 = Release|Win32
+		{75862455-9EA9-4275-90CD-4BBACF430564}.Debug|x64.ActiveCfg = Debug|x64
+		{75862455-9EA9-4275-90CD-4BBACF430564}.Debug|x64.Build.0 = Debug|x64
+		{75862455-9EA9-4275-90CD-4BBACF430564}.Debug|x86.ActiveCfg = Debug|Win32
+		{75862455-9EA9-4275-90CD-4BBACF430564}.Debug|x86.Build.0 = Debug|Win32
+		{75862455-9EA9-4275-90CD-4BBACF430564}.Release|x64.ActiveCfg = Release|x64
+		{75862455-9EA9-4275-90CD-4BBACF430564}.Release|x64.Build.0 = Release|x64
+		{75862455-9EA9-4275-90CD-4BBACF430564}.Release|x86.ActiveCfg = Release|Win32
+		{75862455-9EA9-4275-90CD-4BBACF430564}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,5 +188,8 @@ Global
 		{E009E36A-59B7-465A-8430-44272230FBF3} = {CEA13966-2874-4816-AAD8-C580CBD20AE3}
 		{41B71C2A-6CE3-4E8E-A27C-564331ED4300} = {CEA13966-2874-4816-AAD8-C580CBD20AE3}
 		{0B7C2FA7-7007-4BAA-91C9-1969CBDF73B8} = {BC98FEC2-2DE6-4904-9587-24156DB19F5C}
+		{C9B41564-B909-4F03-A2C0-308DD0D428A1} = {CEA13966-2874-4816-AAD8-C580CBD20AE3}
+		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0} = {C9B41564-B909-4F03-A2C0-308DD0D428A1}
+		{75862455-9EA9-4275-90CD-4BBACF430564} = {81EEE2D0-5105-41E9-BBA1-210D603088AC}
 	EndGlobalSection
 EndGlobal
