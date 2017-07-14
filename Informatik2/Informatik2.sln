@@ -51,6 +51,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenblatt 7 Klassen, Te
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.1.1 Vervollständigung einer Klasse", "7.1.1 Vervollständigung einer Klasse\7.1.1 Vervollständigung einer Klasse.vcxproj", "{75862455-9EA9-4275-90CD-4BBACF430564}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Datenstrukturen", "Datenstrukturen\Datenstrukturen.vcxproj", "{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{75862455-9EA9-4275-90CD-4BBACF430564}.Release|x64.Build.0 = Release|x64
 		{75862455-9EA9-4275-90CD-4BBACF430564}.Release|x86.ActiveCfg = Release|Win32
 		{75862455-9EA9-4275-90CD-4BBACF430564}.Release|x86.Build.0 = Release|Win32
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}.Debug|x64.ActiveCfg = Debug|x64
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}.Debug|x64.Build.0 = Debug|x64
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}.Debug|x86.Build.0 = Debug|Win32
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}.Release|x64.ActiveCfg = Release|x64
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}.Release|x64.Build.0 = Release|x64
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}.Release|x86.ActiveCfg = Release|Win32
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,5 +201,6 @@ Global
 		{C9B41564-B909-4F03-A2C0-308DD0D428A1} = {CEA13966-2874-4816-AAD8-C580CBD20AE3}
 		{ED385C13-2F97-44D0-BA76-C10DB86DA1C0} = {C9B41564-B909-4F03-A2C0-308DD0D428A1}
 		{75862455-9EA9-4275-90CD-4BBACF430564} = {81EEE2D0-5105-41E9-BBA1-210D603088AC}
+		{90755C5F-35EC-4F18-A7DE-8B859CECB7F0} = {C9B41564-B909-4F03-A2C0-308DD0D428A1}
 	EndGlobalSection
 EndGlobal

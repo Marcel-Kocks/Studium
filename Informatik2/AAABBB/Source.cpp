@@ -5,6 +5,7 @@ class AAA
 public:
 	int a;
 	AAA(int aaa) { a = aaa; }
+	AAA() {};
 };
 
 
